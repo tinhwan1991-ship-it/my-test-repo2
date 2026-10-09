@@ -1,0 +1,5 @@
+STATUS: ANDROID PROJECT PREPARED; APK NOT COMPILED IN THIS ENVIRONMENT.
+
+The current execution environment has Java but no Android SDK (android.jar, sdkmanager, aapt/aapt2, adb) and has no DNS/network access to download Android build tools or Gradle. It is therefore not possible to truthfully provide a compiled APK from this session.
+
+Open the project in Android Studio and build as described in BUILD_APK_TH.md, or push the project to GitHub and run the included Build SNOWBOUND Android APK workflow. The workflow uploads app/build/outputs/apk/debug/app-debug.apk as an artifact.
